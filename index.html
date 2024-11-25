@@ -21,6 +21,10 @@
         <p><strong>Name:</strong> Eric & Nicholas</p>
         <p><strong>Bio:</strong> Fourth-year IT students at York University with experience in IT support, workflow automation, and data analytics. Currently working on various tech projects.</p>
         <p><strong>Technical Background:</strong> Knowledgeable in MongoDB, Node.js, data handling, and API interactions, all of which are relevant to this project.</p>
+        <p><strong>Portfolios:</strong> 
+            <a href="https://erictracc.github.io/Eric-Portfolio/" target="_blank">Eric's Portfolio</a> | 
+            <a href="https://friend-eportfolio-link.com" target="_blank">Nicholas's Portfolio</a>
+        </p>
     </section>
 
     <!-- ChatGPT Efficiency Evaluation Section -->
@@ -45,6 +49,16 @@
             <p>Visualizations of ChatGPT's performance in each domain will be displayed here.</p>
         </div>
     </section>
+
+    <div id="metrics">
+        <button id="updateChartsButton">Refresh Charts</button>
+        <div id="chartsContainer">
+            <canvas id="accuracyChart" class="chart-canvas" width="400" height="200"></canvas>
+            <canvas id="distributionChart" class="chart-canvas" width="400" height="200"></canvas>
+            <canvas id="timeComparisonChart" class="chart-canvas" width="400" height="200"></canvas>
+            <script src="scripts/metrics.js"></script>
+        </div>
+    </div>
 
 </body>
 
