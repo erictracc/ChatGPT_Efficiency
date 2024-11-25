@@ -48,20 +48,19 @@
             <h3><i class="fas fa-chart-line"></i> Results</h3>
             <p>Visualizations of ChatGPT's performance in each domain will be displayed here.</p>
         </div>
+
+        <div id="metrics">
+            <button id="updateChartsButton">Refresh Charts</button>
+            <div id="chartsContainer">
+                <canvas id="accuracyChart" class="chart-canvas" width="400" height="200"></canvas>
+                <canvas id="distributionChart" class="chart-canvas" width="400" height="200"></canvas>
+                <canvas id="timeComparisonChart" class="chart-canvas" width="400" height="200"></canvas>
+                <script src="metrics.js"></script>
+            </div>
+        </div>
     </section>
 
-    <div id="metrics">
-        <button id="updateChartsButton">Refresh Charts</button>
-        <div id="chartsContainer">
-            <canvas id="accuracyChart" class="chart-canvas" width="400" height="200"></canvas>
-            <canvas id="distributionChart" class="chart-canvas" width="400" height="200"></canvas>
-            <canvas id="timeComparisonChart" class="chart-canvas" width="400" height="200"></canvas>
-            <script src="scripts/metrics.js"></script>
-        </div>
-    </div>
 
-
-    <script>src="metrics.js"</script>
 </body>
 
 <!-- Footer Section -->
